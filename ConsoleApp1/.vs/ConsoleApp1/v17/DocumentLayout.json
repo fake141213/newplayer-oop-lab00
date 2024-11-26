@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\git\\newplayer-oop-lab00\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE99FBD6-0898-4892-9768-6CCF95AC8AE0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\git\\newplayer-oop-lab00\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE99FBD6-0898-4892-9768-6CCF95AC8AE0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBF4F343-9335-4C6C-B93D-5E68F644AAF6}|ConsoleApp1\\ConsoleApp1.csproj|c:\\git\\newplayer-oop-lab00\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF4F343-9335-4C6C-B93D-5E68F644AAF6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\git\\newplayer-oop-lab00\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T04:03:24.271Z",
+              "WhenOpened": "2024-11-26T04:18:39.436Z",
               "EditorCaption": ""
             }
           ]
