@@ -1,13 +1,163 @@
-using System.Security.Policy;
-
 namespace Newproject
 {
     public partial class Form1 : Form
     {
+        item coffeeitem = new item();
+        item greenteaitem = new item();
+        item Noodleitem = new item();
+        item Pizzaitem = new item();
+        discountitem Discountitem = new discountitem();
+
         public Form1()
         {
             InitializeComponent();
+            coffeeitem.name = "coffee";
+            coffeeitem.price = 35;
+            coffeeitem.quantity = 0;
+            coffeeitem.check = tbccoffee.Checked;
+
+            greenteaitem.name = "Green Tea";
+            greenteaitem.price = 30;
+            greenteaitem.quantity = 0;
+            greenteaitem.check = tbgreentea.Checked;
+
+            Noodleitem.name = "Noodle";
+            Noodleitem.price = 50;
+            Noodleitem.quantity = 0;
+            Noodleitem.check = tbNoodie.Checked;
+
+            Pizzaitem.name = "Pizza";
+            Pizzaitem.price = 80;
+            Pizzaitem.quantity = 0;
+            Pizzaitem.check = tbPizza.Checked;
+
+            Discountitem.namedis = "Tb_DisDrink";
+            Discountitem.per = 0;
+            Discountitem.checkdis = tbbeverge.Checked;
+
+            Discountitem.namedis = "Discount_Food";
+            Discountitem.per = 0;
+            Discountitem.checkdis = tbfood.Checked;
+
+            Discountitem.namedis = "Discount_All";
+            Discountitem.per = 0;
+            Discountitem.checkdis = All_Discount.Checked;
+
+            CoffeePrice.Text = coffeeitem.price.ToString();
+            CoffeePrice.ReadOnly = true;
+
+            GreenTeaPrice.Text = greenteaitem.price.ToString();
+            GreenTeaPrice.ReadOnly = true;
+
+            NoodiePrice.Text = Noodleitem.price.ToString();
+            NoodiePrice.ReadOnly = true;
+
+            PizzaPrice.Text = Pizzaitem.price.ToString();
+            PizzaPrice.ReadOnly = true;
         }
+        public double Item(TextBox item1, TextBox itemamount1, TextBox item2, TextBox itemamount2, CheckBox item_check1, CheckBox item_check2)
+        {
+
+
+            string inputCoffeep = item1.Text;
+            string inputCoffeeq = itemamount1.Text;
+            string inputgreenteap = item2.Text;
+            string inputgreenteaq = itemamount2.Text;
+
+            double Coffeep = 0;
+            double Coffeeq = 0;
+            double greenteap = 0;
+            double greenteaq = 0;
+
+            try
+            {
+                if (item_check1.Checked)
+                    Coffeep = double.Parse(inputCoffeep);
+                Coffeeq = double.Parse(inputCoffeeq);
+
+            }
+            catch (FormatException) { }
+            try
+            {
+                if (item_check2.Checked)
+                    greenteap = double.Parse(inputgreenteap);
+                greenteaq = double.Parse(inputgreenteaq);
+            }
+            catch (FormatException)
+            {
+
+            }
+            double sum1 = Coffeep * Coffeeq;
+            double sum2 = greenteap * greenteaq;
+            double sum = sum1 + sum2;
+            return sum;
+        }
+
+        public double DiscountAll(double Bevergee, double Food)
+        {
+            double sum1 = 0;
+            if (All_Discount.Checked)
+            {
+                double discountvalue = 0;
+                try
+                {
+                    discountvalue = double.Parse(All.Text);
+                    double all = Bevergee + Food;
+                    all = all - (all * discountvalue / 100);
+                    sum1 += all;
+
+                }
+                catch (FormatException)
+                {
+                    double all = Bevergee + Food;
+                    sum1 += all;
+                }
+
+
+            }
+            return sum1;
+        }
+        public double DiscountBeverge(double Bevergee)
+        {
+            if (tbbeverge.Checked)
+            {
+                double discountvalue = 0;
+                try
+                {
+                    discountvalue = double.Parse(Beverge.Text);
+                    Bevergee = Bevergee - (Bevergee * discountvalue / 100);
+
+                }
+                catch (FormatException)
+                { Bevergee = Bevergee - (Bevergee * discountvalue / 100); }
+
+            }
+            return Bevergee;
+        }
+
+        public double DiscountFood(double Food)
+        {
+            if (tbfood.Checked)
+            {
+                double discountvalue = 0;
+                try
+                {
+                    discountvalue = double.Parse(this.Food.Text);
+                    Food = Food - (Food * discountvalue / 100);
+
+                }
+                catch (FormatException)
+                {
+                    Food = Food - (Food * discountvalue / 100);
+
+                }
+            }
+
+            return Food;
+        }
+
+
+
 
         private void label10_Click(object sender, EventArgs e)
         {
@@ -45,126 +195,42 @@ namespace Newproject
             textBox20.Text = "0";
             textBox10.Text = "0";
             textBox5.Text = "0";
-            textBox1.Text = "0";    
+            textBox1.Text = "0";
 
         }
 
         private void Check_out_Click(object sender, EventArgs e)
         {
-            string strcoffeep = CoffeePrice.Text;
-            string strcoffeeq = CoffeeQuantity.Text;
-            string strgreenteap = GreenTeaPrice.Text;
-            string strgreenteaq = GreeTeaQuantity.Text;
-            string strcash = cash.Text;
-            string strchange = change.Text;
-
-            int icoffeep = 0;
-            int icoffeeq = 0;
-            int greeteap = 0;
-            int greeteaq = 0;
-            int cashh = 0;
-            int changee = 0;
-            try
+            double Beverge = Item(CoffeePrice, CoffeeQuantity, GreenTeaPrice, GreeTeaQuantity, tbccoffee, tbgreentea);
+            double Food = Item(NoodiePrice, NoodleQuantity, PizzaPrice, PizzaQuantity, tbNoodie, tbPizza);
+            double sum1 = 0;
+            if (All_Discount.Checked)
             {
-                if (tbccoffee.Checked)
-                {
-                    icoffeep = int.Parse(strcoffeep);
-                    icoffeeq = int.Parse(strcoffeeq);
-                }
-                if (tbgreentea.Checked)
-                {
-                    greeteap = int.Parse(strgreenteap);
-                    greeteaq = int.Parse(strgreenteaq);
-                }
-                if (cash.Created)
-                {
-                    cashh = int.Parse(strcash);
-                }
-                if (change.Created)
-                {
-                    changee = int.Parse(strchange);
-                }
+                sum1 += DiscountAll(Beverge, Food);
+
             }
-
-            catch (Exception ex)
+            else if (tbbeverge.Checked)
             {
-                MessageBox.Show(ex.ToString());
-
-                icoffeep = 0;
-                icoffeeq = 0;
-                greeteap = 0;
-                greeteaq = 0;
-                cashh = 0;
-                changee = 0;
+                Beverge = DiscountBeverge(Beverge);
+                sum1 += Beverge + Food;
 
             }
 
-            int coff = icoffeep * icoffeeq;
-            int greetea = greeteaq * greeteap;
-            int sum = coff + greetea;
-            total.Text = sum.ToString();
-            int chage = cashh - sum;
-            change.Text = chage.ToString();
+            else if (tbfood.Checked)
+            {
+                Food = DiscountFood(Food);
+                sum1 += Food + Beverge;
 
-            int thousand = 0;
-            int five_hundred = 0;
-            int one_hunred = 0;
-            int fifty = 0;
-            int twenty = 0;
-            int ten = 0;
-            int five = 0;
-            int one = 0;
 
-            if (chage >= 1000)
-            {
-                thousand = chage / 1000;
-                chage = chage % 1000;
-                textBox1000.Text = thousand.ToString();
-            }
-            if (chage >= 500)
-            {
-                five_hundred = chage / 500;
-                chage = chage % 500;
-                textBox500.Text = five_hundred.ToString();
-            }
-            if (chage >= 100)
-            {
-                one_hunred = chage / 100;
-                chage = chage % 100;
-                textBox100.Text = one_hunred.ToString();
-            }
-            if (chage >= 50)
-            {
-                fifty = chage / 50;
-                chage = chage % 50;
-                textBox50.Text = fifty.ToString();
-            }
-            if (chage >= 20)
-            {
-                twenty = chage / 20;
-                chage = chage % 20;
-                textBox20.Text = twenty.ToString();
-            }
-            if (chage >= 10)
-            {
-                ten = chage / 10;
-                chage = chage % 10;
-                textBox10.Text = ten.ToString();
-            }
-            if (chage >= 5)
-            {
-                five = chage / 5;
-                chage = chage % 5;
-                textBox5.Text = five.ToString();
-            }
-            if (chage >= 1)
-            {
-                one = chage / 1;
-                chage = chage % 1;
-                textBox1.Text = one.ToString();
-            }
 
+            }
+            else
+            {
+                sum1 += Beverge + Food;
+            }
+            total.Text = sum1.ToString();
         }
+
 
         private void tbccoffee_CheckedChanged(object sender, EventArgs e)
         {
@@ -179,5 +245,122 @@ namespace Newproject
                 GreeTeaQuantity.Enabled = true;
             }
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Change_money_Click(object sender, EventArgs e)
+        {
+            double total = 0;
+            double cash = 0;
+            try
+            {
+                cash = double.Parse(this.cash.Text);
+            }
+            catch (FormatException) { }
+
+            try
+            {
+                total = double.Parse(this.total.Text);
+            }
+            catch (FormatException) { }
+
+            double change = cash - total;
+            this.change.Text = change.ToString();
+
+            double thousand = 0;
+            double five_hundred = 0;
+            double one_hundred = 0;
+            double fifty = 0;
+            double twenty = 0;
+            double ten = 0;
+            double five = 0;
+            double one = 0;
+            double fiftyStang = 0;
+            double twentyFiveStang = 0;
+            while (change >= 0.01)
+            {
+                if (change >= 1000)
+                {
+                    thousand = Math.Floor(change / 1000);
+                    change = change % 1000;
+                }
+                else if (change >= 500)
+                {
+                    five_hundred = Math.Floor(change / 500);
+                    change = change % 500;
+                }
+                else if (change >= 100)
+                {
+                    one_hundred = Math.Floor(change / 100);
+                    change = change % 100;
+                }
+                else if (change >= 50)
+                {
+                    fifty = Math.Floor(change / 50);
+                    change = change % 50;
+                }
+                else if (change >= 20)
+                {
+                    twenty = Math.Floor(change / 20);
+                    change = change % 20;
+                }
+                else if (change >= 10)
+                {
+                    ten = Math.Floor(change / 10);
+                    change = change % 10;
+                }
+                else if (change >= 5)
+                {
+                    five = Math.Floor(change / 5);
+                    change = change % 5;
+                }
+                else if (change >= 1)
+                {
+                    one = Math.Floor(change / 1);
+                    change = change % 1;
+                }
+                else if (change >= 0.50)
+                {
+                    fiftyStang = Math.Floor(change / 0.50);
+                    change = change % 0.50;
+                }
+                else if (change >= 0.25)
+                {
+                    twentyFiveStang = Math.Floor(change / 0.25);
+                    change = change % 0.25;
+                }
+            }
+            textBox1000.Text = thousand.ToString();
+            textBox500.Text = five_hundred.ToString();
+            textBox100.Text = one_hundred.ToString();
+            textBox50.Text = fifty.ToString();
+            textBox20.Text = twenty.ToString();
+            textBox10.Text = ten.ToString();
+            textBox5.Text = five.ToString();
+            textBox1.Text = one.ToString();
+            textBox0_50.Text = fiftyStang.ToString();
+            textBox0_25.Text = twentyFiveStang.ToString();
+        }
+
+            
+
+
+
+
+        
+
+        private void CoffeePrice_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

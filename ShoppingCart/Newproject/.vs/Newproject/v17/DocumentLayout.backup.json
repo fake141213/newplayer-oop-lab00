@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\newproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|solutionrelative:newproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|c:\\git\\newplayer-oop-lab00\\shoppingcart\\newproject\\newproject\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|solutionrelative:newproject\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|c:\\git\\newplayer-oop-lab00\\shoppingcart\\newproject\\newproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|solutionrelative:newproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|c:\\git\\newplayer-oop-lab00\\shoppingcart\\newproject\\newproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|solutionrelative:newproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|c:\\git\\newplayer-oop-lab00\\shoppingcart\\newproject\\newproject\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85C6601-AA88-42E1-AF26-F3122AC4C4C5}|Newproject\\Newproject.csproj|solutionrelative:newproject\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\Form1.cs",
               "RelativeDocumentMoniker": "Newproject\\Form1.cs",
               "ToolTip": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\Form1.cs",
               "RelativeToolTip": "Newproject\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwCUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-03T10:49:15.614Z",
               "IsPinned": true,
@@ -37,6 +45,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Newproject\\Form1.Designer.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\Form1.Designer.cs",
+              "RelativeToolTip": "Newproject\\Form1.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwFMCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T22:48:01.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "item.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\item.cs",
+              "RelativeDocumentMoniker": "Newproject\\item.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\item.cs",
+              "RelativeToolTip": "Newproject\\item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:09:27.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\ShoppingCart\\Newproject\\Newproject\\Form1.cs",
               "RelativeDocumentMoniker": "Newproject\\Form1.cs",

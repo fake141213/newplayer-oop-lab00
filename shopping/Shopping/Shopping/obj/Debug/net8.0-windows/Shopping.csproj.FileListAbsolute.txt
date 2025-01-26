@@ -1,0 +1,8 @@
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\shoppingnewprojectgatnew.POS.resources
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.csproj.GenerateResource.cache
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.AssemblyInfoInputs.cache
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.AssemblyInfo.cs
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.csproj.CoreCompileInputs.cache
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.sourcelink.json
+C:\git\newplayer-oop-lab00\shopping\Shopping\Shopping\obj\Debug\net8.0-windows\Shopping.Form1.resources

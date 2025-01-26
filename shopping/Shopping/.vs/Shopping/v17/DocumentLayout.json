@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{897AA1F8-9891-4419-94AC-E680F81BE33B}|Shopping\\Shopping.csproj|c:\\git\\newplayer-oop-lab00\\shopping\\shopping\\shopping\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{897AA1F8-9891-4419-94AC-E680F81BE33B}|Shopping\\Shopping.csproj|solutionrelative:shopping\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897AA1F8-9891-4419-94AC-E680F81BE33B}|Shopping\\Shopping.csproj|c:\\git\\newplayer-oop-lab00\\shopping\\shopping\\shopping\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897AA1F8-9891-4419-94AC-E680F81BE33B}|Shopping\\Shopping.csproj|solutionrelative:shopping\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897AA1F8-9891-4419-94AC-E680F81BE33B}|Shopping\\Shopping.csproj|c:\\git\\newplayer-oop-lab00\\shopping\\shopping\\shopping\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897AA1F8-9891-4419-94AC-E680F81BE33B}|Shopping\\Shopping.csproj|solutionrelative:shopping\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\Shopping\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Shopping\\Form1.Designer.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\Shopping\\Form1.Designer.cs",
+              "RelativeToolTip": "Shopping\\Form1.Designer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAD4v1UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T06:27:57.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\Shopping\\Form1.cs",
+              "RelativeDocumentMoniker": "Shopping\\Form1.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\Shopping\\Form1.cs",
+              "RelativeToolTip": "Shopping\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T06:00:10.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\Shopping\\Form1.cs",
+              "RelativeDocumentMoniker": "Shopping\\Form1.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\shopping\\Shopping\\Shopping\\Form1.cs [Design]",
+              "RelativeToolTip": "Shopping\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T05:39:34.909Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
