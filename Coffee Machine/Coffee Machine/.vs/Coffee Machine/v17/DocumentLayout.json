@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|c:\\git\\newplayer-oop-lab00\\coffee machine\\coffee machine\\coffee machine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|solutionrelative:coffee machine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\coffee machine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|solutionrelative:coffee machine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|c:\\git\\newplayer-oop-lab00\\coffee machine\\coffee machine\\coffee machine\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|solutionrelative:coffee machine\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|c:\\git\\newplayer-oop-lab00\\coffee machine\\coffee machine\\coffee machine\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD4C4F1-4BF4-4156-A157-95D52071DC89}|Coffee Machine\\Coffee Machine.csproj|solutionrelative:coffee machine\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "item.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\item.cs",
+              "RelativeDocumentMoniker": "Coffee Machine\\item.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\item.cs",
+              "RelativeToolTip": "Coffee Machine\\item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T21:43:57.951Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.cs",
+              "RelativeDocumentMoniker": "Coffee Machine\\Form1.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.cs",
+              "RelativeToolTip": "Coffee Machine\\Form1.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAADwv8UAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T21:44:02.683Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.cs",
+              "RelativeDocumentMoniker": "Coffee Machine\\Form1.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.cs [Design]",
+              "RelativeToolTip": "Coffee Machine\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T21:27:25.701Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Coffee Machine\\Form1.Designer.cs",
+              "ToolTip": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.Designer.cs",
+              "RelativeToolTip": "Coffee Machine\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAD4vxYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:51:23.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
