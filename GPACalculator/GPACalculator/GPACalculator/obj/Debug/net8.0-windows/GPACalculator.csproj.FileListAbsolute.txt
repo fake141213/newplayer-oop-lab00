@@ -1,0 +1,17 @@
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\bin\Debug\net8.0-windows\GPACalculator.exe
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\bin\Debug\net8.0-windows\GPACalculator.deps.json
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\bin\Debug\net8.0-windows\GPACalculator.runtimeconfig.json
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\bin\Debug\net8.0-windows\GPACalculator.dll
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\bin\Debug\net8.0-windows\GPACalculator.pdb
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.Form1.resources
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.csproj.GenerateResource.cache
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.AssemblyInfoInputs.cache
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.AssemblyInfo.cs
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.csproj.CoreCompileInputs.cache
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.sourcelink.json
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.dll
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\refint\GPACalculator.dll
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.pdb
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\GPACalculator.genruntimeconfig.cache
+C:\git\newplayer-oop-lab00\GPACalculator\GPACalculator\GPACalculator\obj\Debug\net8.0-windows\ref\GPACalculator.dll

@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "Coffee Machine\\Form1.cs",
               "ToolTip": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.cs",
               "RelativeToolTip": "Coffee Machine\\Form1.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAADwv8UAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwMUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T21:44:02.683Z",
               "IsPinned": true,
@@ -64,8 +64,7 @@
               "ToolTip": "C:\\git\\newplayer-oop-lab00\\Coffee Machine\\Coffee Machine\\Coffee Machine\\Form1.cs [Design]",
               "RelativeToolTip": "Coffee Machine\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T21:27:25.701Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-01T21:27:25.701Z"
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Coffee Machine\\Form1.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAD4vxYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T23:51:23.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T23:51:23.217Z"
             }
           ]
         }
