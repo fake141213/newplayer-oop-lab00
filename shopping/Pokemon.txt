@@ -1,0 +1,206 @@
+Form1.cs
+namespace PokemonDex
+{
+    public partial class Form1 : Form
+    {
+        private List<Pokemon> pokemonsList = new List<Pokemon>();
+        public Form1()
+        {
+            InitializeComponent();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Spheal spheal = new Spheal();
+            Gible gible = new Gible();
+            Shuppet shuppet = new Shuppet();
+            Mew mew = new Mew();
+            Celebi celebi = new Celebi();
+            Alcremie alcremie = new Alcremie();
+            this.pokemonsList.Add(alcremie);
+            this.pokemonsList.Add(shuppet);
+            this.pokemonsList.Add(celebi);
+            this.pokemonsList.Add(mew);
+            this.pokemonsList.Add(gible);
+            this.pokemonsList.Add(spheal);
+        }
+        private void displayPokemon(Pokemon pokemon)
+        {
+            this.label26.Text = pokemon.getSpecies();
+            this.label12.Text = pokemon.gettotal();
+            this.label11.Text = pokemon.getspeed();
+            this.label10.Text = pokemon.getspdef();
+            this.label9.Text = pokemon.getspatk();
+            this.label8.Text = pokemon.getdefense();
+            this.label4.Text = pokemon.getWeight();
+            this.label6.Text = pokemon.getHeight();
+            this.label7.Text = pokemon.getattack();
+            this.label3.Text = pokemon.getHP();
+            this.label2.Text = pokemon.getTypes();
+            this.label1.Text = pokemon.getName();
+            using (var ms = new MemoryStream(pokemon.getImge()))
+            {
+                this.pictureBox1.Image = Image.FromStream(ms);
+
+            }
+
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shuppet_Click(object sender, EventArgs e)
+        {
+            Shuppet shuppet = new Shuppet();
+            this.pokemonsList.Add(shuppet);
+            this.displayPokemon(shuppet);
+
+        }
+
+        private void celebii_Click(object sender, EventArgs e)
+        {
+            Celebi celebi = new Celebi();
+            this.pokemonsList.Add(celebi);
+            this.displayPokemon(celebi);
+        }
+
+        private void mew_Click(object sender, EventArgs e)
+        {
+            Mew mew = new Mew();
+            this.pokemonsList.Add(mew);
+            this.displayPokemon(mew);
+        }
+
+        private void spheal_Click(object sender, EventArgs e)
+        {
+            Spheal spheal = new Spheal();
+            this.displayPokemon(spheal);
+        }
+
+        private void alcremie_Click(object sender, EventArgs e)
+        {
+            Alcremie alcremie = new Alcremie();
+            this.displayPokemon(alcremie);
+        }
+
+        private void gible_Click(object sender, EventArgs e)
+        {
+            Gible gible = new Gible();
+            this.displayPokemon(gible);
+        }
+    }
+}
+Pokemon.cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PokemonDex
+{
+    public enum PokemonType
+    {
+        Ghost,
+        Psychic,
+        Grass,
+        Fairy,
+        Dragon,
+        Ice,
+        Ground,
+        Water,
+    }
+    public enum PokemonSpecies
+    {
+        CreamPokémon,
+    }
+    public class Pokemon
+    {
+        protected string Name;
+        protected string Species;
+        protected int HP;
+        protected int Attack;
+        protected int Defense;
+        protected int SpecialAttack;
+        protected int SpecialDefense;
+        protected int Speed;
+        protected int Total;
+        protected double Height;
+        protected double Weight;
+        protected PokemonType Type1;
+        protected PokemonType Type2;
+        protected byte[] imge;
+
+        public Pokemon() { }
+        public string getName()
+        {
+            return this.Name;
+
+        }
+        public string getHP()
+        {
+            return this.HP.ToString();
+        }
+        public string getattack()
+        {
+            return this.Attack.ToString();
+        }
+        public string getdefense()
+        {
+            return this.Defense.ToString();
+        }
+        public string getspdef()
+        {
+            return this.SpecialDefense.ToString();
+        }
+        public string getspatk()
+        {
+            return this.SpecialAttack.ToString();
+        }
+        public string getHeight()
+        {
+            return this.Height.ToString("0.0");
+        }
+        public string getWeight()
+        {
+            return this.Weight.ToString("0.0");
+        }
+        public byte[] getImge()
+        {
+            return this.imge;
+        }
+        public string getTypes()
+        {
+            if (this.Type2 != 0)
+            {
+                return this.Type1.ToString() + " / " + this.Type2.ToString();
+            }
+            else
+            {
+                return this.Type1.ToString();
+            }
+        }
+
+        public string getspeed()
+        {
+            return this.Speed.ToString();
+        }
+        public string gettotal() 
+        {
+            return this.Total.ToString();
+        }
+        public string getSpecies()
+        {
+            return this.Species;
+        }
+
+
+
+
+
+    }
+}

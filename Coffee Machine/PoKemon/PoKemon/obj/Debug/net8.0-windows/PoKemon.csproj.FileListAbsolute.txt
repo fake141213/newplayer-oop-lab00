@@ -1,0 +1,17 @@
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\bin\Debug\net8.0-windows\PoKemon.exe
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\bin\Debug\net8.0-windows\PoKemon.deps.json
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\bin\Debug\net8.0-windows\PoKemon.runtimeconfig.json
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\bin\Debug\net8.0-windows\PoKemon.dll
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\bin\Debug\net8.0-windows\PoKemon.pdb
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.Form1.resources
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.csproj.GenerateResource.cache
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.AssemblyInfoInputs.cache
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.AssemblyInfo.cs
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.csproj.CoreCompileInputs.cache
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.sourcelink.json
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.dll
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\refint\PoKemon.dll
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.pdb
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\PoKemon.genruntimeconfig.cache
+C:\git\newplayer-oop-lab00\Coffee Machine\PoKemon\PoKemon\obj\Debug\net8.0-windows\ref\PoKemon.dll
